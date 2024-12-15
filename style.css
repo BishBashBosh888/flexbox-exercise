@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color:var(--dark);
+    background-color:white;
     font-family: "Roboto", sans-serif;
 }
 
@@ -61,27 +61,95 @@ a, button{
     color: var(--darker);
     margin-top: auto;
     margin-bottom: auto;
-    display:flex;
     gap:20px;
 }
 
 .hero h1{
-    color:var(--lighter);
+    color:white;
     font-size:48px;
 }
 
 .hero-text{
-    color:var(--lighter);
+    width:1000px;
+    text-align:center;
+    color:white;
     text-shadow:2px black;
 }
 
 .hero-button{
-    border: 2px solid var(--lighter);
+    border: 2px solid white;
     border-radius: 8px;
     width:125px;
     height: 50px;
     font-size:16px;
     background-color: transparent;
-    color:var(--lighter);
+    color:white;
     font-weight:600;
+}
+
+.main{
+    color:var(--dark);
+    text-align:center;
+}
+
+.main .title{
+    margin:15px;
+}
+
+.main .characters{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+
+.character-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:5px;
+}
+
+.character-img{
+    overflow:hidden;
+    height:425px;
+    width:300px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.synopsis-trailer{
+    margin-top:100px;
+    margin-bottom:100px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:200px;
+}
+
+.synopsis-title{
+    margin-left:250px;
+    height:auto;
+    width:900px;
+    text-align:start;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+
+    h1{
+        margin-bottom:20px;
+    }
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:100px;
+    background-color:var(--darker);
+    height:100px;
+}
+
+footer a i {
+    color: white;
 }
