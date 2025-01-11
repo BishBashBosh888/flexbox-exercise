@@ -5,7 +5,7 @@
     --dark: #19376D;
     --light:#576CBC;
     --lighter:#A5D7E8;
-    --bg-img:url("imgs/header-background.jpg");
+--bg-img:url("imgs/header-background.jpg");
 }
 
 *{
@@ -121,14 +121,15 @@ a, button{
 .synopsis-trailer{
     margin-top:100px;
     margin-bottom:100px;
+    margin-left:250px;
+margin-right: 250px;;
     display:flex;
     justify-content:center;
     align-items: center;
-    gap:200px;
+    gap:150px;
 }
 
 .synopsis-title{
-    margin-left:250px;
     height:auto;
     width:900px;
     text-align:start;
